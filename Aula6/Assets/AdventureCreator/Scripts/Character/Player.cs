@@ -50,6 +50,10 @@ namespace AC
 		public bool freeAimLocked = false;
 		public bool jumpingLocked = false;
 
+		// public float RotationSpeed = 20f;
+		// private float x = 0.0f;
+		// public float RotationSensitivity = 0.1f;
+
 		#endregion
 
 
@@ -116,6 +120,12 @@ namespace AC
 		/** The Player's "Update" function, called by StateHandler. */
 		public override void _Update ()
 		{
+
+			// //Rotação com as setas direita e esquerda
+			// x +=  Input.GetAxis("Turn")*RotationSpeed*RotationSensitivity;
+			// //A posição da câmera depende da posição do player
+			// player.eulerAngles = new Vector3 (0.0f, x, 0.0f);
+			// transform.rotation = CameraPosition.rotation;
 			if (!IsActivePlayer ())
 			{
 				base._Update ();

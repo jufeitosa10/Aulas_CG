@@ -70,6 +70,7 @@ namespace AC
 		protected LerpUtils.FloatLerp tiltLerp = new LerpUtils.FloatLerp ();
 		protected float targetTilt;
 
+	
 		#endregion
 
 
@@ -117,6 +118,12 @@ namespace AC
 		 */
 		public void _UpdateFPCamera ()
 		{
+
+			// //Rotação com as setas direita e esquerda
+			// x +=  Input.GetAxis("Turn")*RotationSpeed*RotationSensitivity;
+			// //A posição da câmera depende da posição do player
+			// player.eulerAngles = new Vector3 (0.0f, x, 0.0f);
+			// //transform.rotation = transform.ro
 			if (actualTilt != targetTilt)
 			{
 				if (player)

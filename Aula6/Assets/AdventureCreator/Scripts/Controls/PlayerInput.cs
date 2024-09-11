@@ -153,6 +153,8 @@ namespace AC
 		private bool resetMouseClickThisFrame;
 
 
+
+
 		private void OnEnable ()
 		{
 			EventManager.OnGrabMoveable += OnGrabMoveable;
@@ -187,6 +189,17 @@ namespace AC
 		 * Updates the input handler.
 		 * This is called every frame by StateHandler.
 		 */
+
+		public void Update()
+		{
+			// //Rotação com as setas direita e esquerda
+			// x +=  Input.GetAxis("Turn")*RotationSpeed*RotationSensitivity;
+			// // //A posição da câmera depende da posição do player
+			// KickStarter.player.eulerAngles = new Vector3 (0.0f, x, 0.0f);
+			// // player.eulerAngles = new Vector3 (0.0f, x, 0.0f);
+			
+			// transform.rotation = CameraPosition.rotation;
+		}
 		public void UpdateInput ()
 		{
 			if (timeCurve != null && timeCurve.length > 0)
