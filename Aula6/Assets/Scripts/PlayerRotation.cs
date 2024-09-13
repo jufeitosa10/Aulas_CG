@@ -5,7 +5,6 @@ using AC;
 
 public class PlayerRotation : MonoBehaviour
 {
-
     public float RotationSpeed = 20.0f;
 
     public Transform playerBody; // Referência ao corpo do player
