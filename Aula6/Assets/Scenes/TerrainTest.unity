@@ -482,14 +482,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244907787}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 487.0045, y: 49.27, z: 434.55}
+  m_LocalRotation: {x: -0.026765931, y: 0.00046651522, z: 0.017420553, w: 0.99948984}
+  m_LocalPosition: {x: 487.03146, y: 49.274773, z: 434.6626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2046529139}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -3.068, y: 0, z: 1.997}
 --- !u!114 &1244907793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,13 +763,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046529138}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.028651472, y: -0.9655712, z: -0.22842717, w: 0.121129364}
-  m_LocalPosition: {x: 3.1071777, y: 0.8223114, z: 11.774506}
+  m_LocalRotation: {x: 0.00980574, y: -0.9891421, z: 0.07813252, w: 0.124084964}
+  m_LocalPosition: {x: -0.259988, y: 1.2499979, z: 0.1900151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1244907792}
-  m_LocalEulerAnglesHint: {x: -26.62, y: -165.699, z: -0.001}
+  m_LocalEulerAnglesHint: {x: 9.033, y: -165.7, z: 0}
 --- !u!114 &2046529140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046529138}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
@@ -1269,8 +1269,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8521645284867690920}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021672294, y: -0.9340237, z: 0.057514075, w: 0.35188395}
-  m_LocalPosition: {x: 487.00446, y: 59.723755, z: 429.64246}
+  m_LocalRotation: {x: -0.051521845, y: -0.7945577, z: 0.06810337, w: -0.6011536}
+  m_LocalPosition: {x: 471.14597, y: 53.495697, z: 451.68356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
