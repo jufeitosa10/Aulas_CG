@@ -12,6 +12,7 @@ public class MousePick : MonoBehaviour
         ++mPicks; // Incrementa o número de vezes que o objeto foi escolhido
         //Debug.Log ("Este objeto foi escolhido");
         print("Este objeto foi escolhido " + mPicks + " vezes.");
+        
 
     }
 }
